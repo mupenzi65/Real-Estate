@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server",
     "dev": "nodemon server",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "build":"npm install"
   },
   "keywords": [],
   "author": "",
