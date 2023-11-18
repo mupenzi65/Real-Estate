@@ -1,14 +1,14 @@
 {
-  "name": "server",
+  "name": "index",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": "18.x"
   },
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server",
+    "start": "node index",
+    "dev": "nodemon index",
     "postinstall": "prisma generate",
     "build":"npm install"
   },
