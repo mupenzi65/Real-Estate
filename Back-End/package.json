@@ -7,8 +7,8 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "postinstall": "prisma generate",
     "build":"npm install"
   },
